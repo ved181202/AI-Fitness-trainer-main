@@ -1,6 +1,57 @@
 # AI-Fitness-trainer
 An AI model used to help with the workout session by keeping track of counts and movement using the mediapipe library . Then using the appropriate body part angles , the count of exercise is determined.
 
+
+## 💡 Features
+
+- 🔁 Automatic exercise repetition counter
+- 🧠 Real-time pose estimation via MediaPipe
+- 📸 Webcam-based workout tracking
+- 🏃 Supports multiple exercises (Sit-up, Push-up, Squat, etc.)
+
+---
+
+## 🧰 Tech Stack
+
+- Python
+- OpenCV
+- MediaPipe
+- Numpy
+
+## 📁 Folder Structure
+
+```
+AI-Fitness-trainer-main/
+├── Exercise_videos/
+├── output/
+├── main.py
+├── utils.py
+├── types_of_exercise.py
+├── body_part_angle.py
+├── requirements.txt
+└── README.md
+```
+## ▶️ Getting Started
+
+1. **Clone the repo**
+```bash
+git clone https://github.com/ved181202/AI-Fitness-trainer-main.git
+cd AI-Fitness-trainer-main
+```
+
+2. **Install dependencies**
+```bash
+pip install -r requirements.txt
+```
+
+3. **Run an exercise**
+```bash
+python main.py -t squat
+```
+
+
+---
+
 ## Pull-Up Exercise
 ![Pull-Up](https://github.com/itzThillaiC/AI-Fitness-trainer/blob/main/output/output%20pull-up.gif?raw=true)
 
@@ -62,4 +113,12 @@ python main.py -t sit-up
 # or python main.py -t squat
 # or python main.py -t walk
 ```
+---
 
+## 🧑‍💻 Author
+
+Made  by [@ved181202](https://github.com/ved181202)
+
+## 📜 License
+
+This project is open-source and available under the [MIT License](LICENSE).
